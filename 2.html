@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* body {font-family: "Lato", sans-serif}
+.mySlides {display: none} */
+</style>
+<style>
+    body {
+      font-family: "Lato", sans-serif;
+      background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-photo%2Fdoctor-hold-icon-health-electronic-medical-record-interface-digital-healthcare-network_34200-712.jpg&tbnid=9b6e_br7eESo_M&vet=12ahUKEwiklsj2r_yBAxU3m2MGHQy9CFMQMygHegQIARB9..i&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fmedical-care&docid=vmhpzz6ITlameM&w=626&h=286&q=health%20care%20images&hl=en-GB&ved=2ahUKEwiklsj2r_yBAxU3m2MGHQy9CFMQMygHegQIARB9'); /* Add the path to your image here */
+      background-size: cover; /* Ensures the image covers the entire background */
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+    }
+    /* Rest of your CSS styles */
+  </style>
+<!-- <link rel="stylesheet" href="card.css"> -->
+<link
+    rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+      
+</head>
+<body>
+<background-image:url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-photo%2Fdoctor-hold-icon-health-electronic-medical-record-interface-digital-healthcare-network_34200-712.jpg&tbnid=9b6e_br7eESo_M&vet=12ahUKEwiklsj2r_yBAxU3m2MGHQy9CFMQMygHegQIARB9..i&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fmedical-care&docid=vmhpzz6ITlameM&w=626&h=286&q=health%20care%20images&hl=en-GB&ved=2ahUKEwiklsj2r_yBAxU3m2MGHQy9CFMQMygHegQIARB9")
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+
+    
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">BODY MASS INDEX CALCULATOR</h2>
+    <p class="w3-opacity"><i>Physical fitness is the first requisite of happiness.</i></p>
+    <p class="w3-justify">Body Mass Index (BMI) is a person’s weight in kilograms (or pounds) divided by the square of height in meters (or feet). A high BMI can indicate high body fatness. BMI screens for weight categories that may lead to health problems, but it does not diagnose the body fatness or health of an individual.</p>
+    <h2>How Do I Interpret Body Mass Index Information?</h2>
+    <div class="container-fluid bg-secondary mt-3 p-3 border border-2 border-info text-white text-center">
+        <h3>About BMI for Adults:</h1>
+        <p>Information about BMI and interpreting this number for adults.</p>
+    
+    </div>
+    <div class="container-fluid bg-secondary mt-3 mb-3 p-3 border border-2 border-info text-white text-center">
+        <h3>About BMI for Children and Teens:</h1>
+        <p>Information about BMI and interpreting the BMI percentile for children and teens.</p>
+    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+  
+
+  
+     <!-- The Tour Section -->
+<div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+    
+  
+        <div class="w3-row-padding w3-padding-32 " style="margin:0 -16px">
+          <div class="w3-third w3-margin-bottom">
+            <div class="w3-container w3-white w3-margin-left">
+              <p><b>BMI</b></p>
+              <p class="w3-opacity"></p>
+              <p>Want to know if you are Underweight, Normalweight or Overweight?</p>
+              <a href="bmi.html" class="w3-button w3-black w3-margin-bottom">Calculate your BMI</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- BMI Calculator Section -->
+  <!-- <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <!-- Your head content remains the same -->
+  <!-- </head>
+  <body>  -->
+  <!-- Your HTML content remains the same -->
+  
+  
+  
+  <!-- <script>
+    
+  
+    // Add a click event listener to the "Calculate BMI" button
+    const calculateButton = document.getElementById("calculateButton");
+    calculateButton.addEventListener("click", calculateBMI);
+  </script> -->
+  </body>
+  </html>
+  
+
+ <!-- The Contact Section -->
+ <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<!-- End Page Content -->
+</div>
+<!-- 
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%"> -->
+
+<!-- Footer -->
+<!-- <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools
+  </div> -->
+
+  <!-- Footer -->
+  <!-- <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </footer> -->
+
+  
+   <!-- <script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex - 1].style display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script> -->
+
+
+
+</body>
+</html>
